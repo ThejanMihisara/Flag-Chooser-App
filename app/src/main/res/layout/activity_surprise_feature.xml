@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etCountryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Enter country name"/>
+
+        <Button
+            android:id="@+id/btnGetDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Country Details"
+            android:minHeight="48dp"
+            android:backgroundTint="#FF6200EE"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvCountryDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

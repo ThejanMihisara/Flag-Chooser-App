@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etCountryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Enter country name"/>
+
+    <Button
+        android:id="@+id/btnFindCapital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Capital"
+        android:minHeight="48dp"
+        android:backgroundTint="#FF6200EE"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvCapitalResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
